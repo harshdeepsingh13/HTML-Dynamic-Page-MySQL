@@ -5,14 +5,14 @@
     <title>Data</title>
 </head>
 <body>
-<form action="submission">
+<form action="submission" method="post">
     <table>
         <tr>
             <td>
                 Enter your Name:
             </td>
             <td>
-                <input type="text" name="name">
+                <input type="text" name="name" id="name" required="required">
             </td>
         </tr>
         <tr>
@@ -20,7 +20,7 @@
                 Enter your Contact No.:
             </td>
             <td>
-                <input type="number" name="contact">
+                <input type="tel" name="contact" id="contact" required="required">
             </td>
         </tr>
         <tr>
